@@ -22,7 +22,7 @@ header {
  /* height: 300px; skillcrush */
   height: 120px;
   width: 100%;
-  background: #e3e3e3;
+  background: #737373;
 }
 
 
@@ -53,7 +53,7 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #e3e3e3;
+  background: #737373;
 }
 
 
@@ -63,6 +63,12 @@ footer {
 @media (min-width: 768px) {
   header {
     background-color: #a6a6a6;
+  }
+
+  .col-3 {
+
+    width: 50%;
+
   }
 
   #column-1 {
@@ -75,11 +81,14 @@ footer {
 
   #column-3 {
     background-color: #d3bdf5;
+    width: 100%;
   }
 
   footer {
     background-color: #a6a6a6;
   }
+
+
   
 }
 
@@ -87,7 +96,13 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: #737373;
+    background-color: #e3e3e3;
+  }
+
+  .col-3 {
+
+    width: 33.33%;
+
   }
 
   #column-1 {
@@ -100,10 +115,11 @@ footer {
 
   #column-3 {
     background-color: #ffffff;
+    width: 33.33%;
   }
 
   footer {
-    background-color: #737373;
+    background-color: #e3e3e3;
   }
    
 }
